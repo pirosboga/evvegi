@@ -53,7 +53,7 @@ public class Main {
 
     private static void menetrendListazas() {
         if (jaratok.isEmpty()) {
-            System.out.println("Nincsenek jaratok a rendszerben.");
+            System.out.println("Jelenleg egyetlen jarat sincs regisztralva.");
             return;
         }
         for (Jarat j : jaratok) {
