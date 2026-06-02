@@ -46,7 +46,7 @@ public class Main {
                     System.out.println("Adatok elmentve. Viszlat!");
                     System.exit(0);
                 default:
-                    System.out.println("Ervenytelen opcio, probald ujra!");
+                    System.out.println("Ervenytelen valasz, probald ujra!");
             }
         }
     }
