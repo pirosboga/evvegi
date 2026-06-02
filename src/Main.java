@@ -109,7 +109,7 @@ public class Main {
 
             if (indulasIndex != -1 && celIndex != -1 && indulasIndex < celIndex) {
                 System.out.println("-> Talalt jarmu: [" + j.getTipus() + "] Jarat szama: " + j.getJaratSzam());
-                System.out.println("   Eredeti indulasok errol a vegallomasrol: " + j.getIndulasiIdok());
+                System.out.println("   Menetrend szerinti indulasok a kiindulasi pontrol: " + j.getIndulasiIdok());
                 if (j.getKesesPerc() > 0) {
                     System.out.println("   [!] Figyelmeztetes: Ez a jarat jelenleg " + j.getKesesPerc() + " percet kesik.");
                 }
