@@ -41,6 +41,6 @@ public class Jarat {
             System.out.print(m.getNev() + " -> ");
         }
         System.out.println("VEGE");
-        System.out.println("Indulasok: " + indulasiIdok);
+        System.out.println(" Indulasi idopontok: " + indulasiIdok);
     }
 }
