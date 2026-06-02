@@ -75,7 +75,7 @@ public class Main {
         }
 
         if (talalt != null) {
-            System.out.print("Hany percet kesik?: ");
+            System.out.print("Adja meg a keses merteket percekben kifejezve: ");
             try {
                 int perc = Integer.parseInt(scanner.nextLine());
                 talalt.setKesesPerc(perc);
