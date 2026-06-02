@@ -90,7 +90,7 @@ public class Main {
     }
 
     private static void utvonalTervezes() {
-        System.out.print("Indulasi megallo: ");
+        System.out.print("Indulasi allomas vagy megallohely: ");
         String indulas = scanner.nextLine();
         System.out.print("Cel megallo: ");
         String cel = scanner.nextLine();
@@ -118,7 +118,7 @@ public class Main {
         }
 
         if (!vanTalalat) {
-            System.out.println("[INFO] Nem talaltunk olyan jaratot, ami közvetlen összeköttetest biztosit.");
+            System.out.println("Nem talaltunk olyan jaratot, ami közvetlen összeköttetest biztosit.");
         }
     }
 
