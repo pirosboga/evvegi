@@ -35,7 +35,7 @@ public class Jarat {
     }
 
     public void info() {
-        System.out.println(tipus + " - " + jaratSzam + " (Keses: " + kesesPerc + " perc)");
+        System.out.println(">>> " + tipus + " | Jarat: " + jaratSzam + " | Keses: " + kesesPerc + " perc");
         System.out.print("Megallok: ");
         for (Megallo m : megallok) {
             System.out.print(m.getNev() + " -> ");
