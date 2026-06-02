@@ -22,8 +22,8 @@ public class Main {
         }
 
         while (true) {
-            System.out.println("\nTOMEGKOZLEKEDESI MENETREND");
-            System.out.println("1. Menetrend megtekintese (Minden jarat)");
+            System.out.println("\n=== VÁROSI TÖMEGKÖZLEKEDÉSI RENDSZER ===");
+            System.out.println("1. Aktuális menetrend kilistázása");
             System.out.println("2. Utvonaltervezes (A-bol B-be)");
             System.out.println("3. Adminisztracio: Keses beirasa");
             System.out.println("4. Kilepes es Mentes");
