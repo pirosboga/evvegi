@@ -111,7 +111,7 @@ public class Main {
                 System.out.println("-> Megfelelo jarat: " + j.getTipus() + " " + j.getJaratSzam());
                 System.out.println("   Eredeti indulasok errol a vegallomasrol: " + j.getIndulasiIdok());
                 if (j.getKesesPerc() > 0) {
-                    System.out.println("   Figyelem! A jarat jelenleg " + j.getKesesPerc() + " percet kesis!");
+                    System.out.println("   [!] Figyelmeztetes: Ez a jarat jelenleg " + j.getKesesPerc() + " percet kesik.");
                 }
                 vanTalalat = true;
             }
