@@ -82,7 +82,7 @@ public class Main {
                 mentesFajlba();
                 System.out.println("Keses sikeresen regisztralva!");
             } catch (NumberFormatException e) {
-                System.out.println("Hibas formatum, szamot adj meg!");
+                System.out.println("Ervenytelen adat! Csak egesz szamot adj meg percnek.");
             }
         } else {
             System.out.println("Nem talalhato ilyen jarat.");
