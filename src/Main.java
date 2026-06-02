@@ -27,7 +27,7 @@ public class Main {
             System.out.println("2. Utvonaltervezes (A-bol B-be)");
             System.out.println("3. Adminisztracio: Keses beirasa");
             System.out.println("4. Kilepes es Mentes");
-            System.out.print("Valassz opciot: ");
+            System.out.print("Valassz egy opciót: ");
 
             String opcio = scanner.nextLine();
 
