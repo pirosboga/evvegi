@@ -140,7 +140,7 @@ public class Main {
                 writer.println(j.getJaratSzam() + ";" + j.getTipus() + ";" + j.getKesesPerc() + ";" + megallokStr + ";" + idokStr);
             }
         } catch (IOException e) {
-            System.out.println("Hiba a mentes soran: " + e.getMessage());
+            System.out.println("[HIBA] Az adatok elmentese meghiúsult: " + e.getMessage());
         }
     }
 
