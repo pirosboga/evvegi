@@ -179,7 +179,7 @@ public class Main {
                 jaratok.add(j);
             }
         } catch (Exception e) {
-            System.out.println("Hiba a beolvasasokor: " + e.getMessage());
+            System.out.println("[KRITIKUS) Nem sikerult beolvasni az adatfajlt: " + e.getMessage());
         }
     }
 }
