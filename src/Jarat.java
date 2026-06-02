@@ -38,7 +38,7 @@ public class Jarat {
         System.out.println(">>> " + tipus + " | Jarat: " + jaratSzam + " | Keses: " + kesesPerc + " perc");
         System.out.print(" Erintett megallohelyek: ");
         for (Megallo m : megallok) {
-            System.out.print(m.getNev() + " -> ");
+            System.out.print(m.getNev() + " >>> ");
         }
         System.out.println("VEGE");
         System.out.println(" Indulasi idopontok: " + indulasiIdok);
