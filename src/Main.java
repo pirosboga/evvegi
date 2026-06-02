@@ -118,7 +118,7 @@ public class Main {
         }
 
         if (!vanTalalat) {
-            System.out.println("Sajnos kozvetlen jarat nem talalhato.");
+            System.out.println("[INFO] Nem talaltunk olyan jaratot, ami közvetlen összeköttetest biztosit.");
         }
     }
 
